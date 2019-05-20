@@ -44,28 +44,34 @@ $(function(){
                 pagebtn.innerHTML = html;
                 pagebtn.children[arr.page -1].className = 'active';
 
-                //排序功能
-                var ojbk = true;
-                var li_price = document.getElementById("li_price")
-                li_price.onclick = function() {
-                    type = 'price';//根据价格进行排序
-                    if(ojbk) {
-                        //第一次点击：升序
-                        li_price.innerHTML = '降序';
-                        order = 'ASC';//升序
-                    }else {
-                        li_price.innerHTML = '升序';
-                        order = 'DESC';//降序
-                    }
-                    ojbk = !ojbk;
-                    init(1);//排序后默认的跳转到第一页
-                }
+                
             }
         })
         
     }
     init(1);
 
+    //排序功能
+    var ojbk = true;
+    var li_price = document.getElementById("li_price")
+    li_price.onclick = function() {
+        
+        if(ojbk) {
+            //第一次点击：升序
+            li_price.innerHTML = '降序';
+            // alert(123)
+            order = 'ASC';//升序
+        }else if(!ojbk){
+           console.log(666);
+            li_price.innerHTML = '升序';
+            order = 'DESC';//降序
+        }
+        type = 'price';//根据价格进行排序
+        ojbk = !ojbk;
+        
+        init(1);//排序后默认的跳转到第一页
+    }
+                
     pagebtn.onclick = function(ev){
         // alert(123);
         if(ev.target.tagName.toLowerCase() == 'a'){
