@@ -1,0 +1,312 @@
+/*top*/
+#top{
+    height:72px;
+}
+#top img{
+    margin:15px 26px 0 191px;
+    float:left;
+}
+#top span{
+    float:left;
+    margin-top: 43px;
+    font-size: 20px;
+    color:#6C6C6C;
+    border-left: 1px solid #ccc;
+    padding-left: 16px;
+    font-weight: 600;
+}
+/*main*/
+#mainn{
+    height:886px;
+    background:url(../images/reg_bg.png);
+    border-top: 1px solid #F4F4F4;
+    border-bottom: 1px solid #ccc;
+}
+#mainn .mainn{
+    height:865px;
+    background:#FFFFFF;
+    padding-top: 21px;
+    position:relative;
+}
+.mainn .p1{
+    width:90px;
+    padding-bottom: 21px;
+    font-size: 18px;
+    margin:0px 0 115px 40px;
+    border-bottom:2px solid #0996D4;
+}
+.mainn .p2{
+    font-size: 16px;
+    margin:0 0 34px 211px;
+}
+.mainn .tab{
+    padding-left: 121px;
+    line-height: 45px;
+}
+.mainn .tab .sp1{
+    display:inline-block;
+    width:78px;
+    height:45px;
+    text-align: right;
+    margin:0 11px 38px 0;
+    font-size: 12px;
+}
+.mainn .tab .pho{
+    width:368px;
+    height:45px;
+    border:1px solid #E5E5E5;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.mainn .tab .input-val{
+    width:221px;
+    height:45px;
+    border:1px solid #E5E5E5;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.mainn .tab #canvas{
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.mainn .tab .msg{
+    width:228px;
+    height:45px;
+    border:1px solid #E5E5E5;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.mainn .tab .msg_btn{
+    background:#22AC38;
+    width:132px;
+    height:45px;
+    margin-left: 8px;
+    border-radius:3px;
+    color:#fff;
+    font-size: 12px;
+    cursor:pointer;
+}
+.mainn .tab .msg_btn:hover{
+    background:#4EBD60;
+}
+
+.mainn .tab .keybd1{
+    position:absolute;
+    background:url(../images/keybd.png);
+    width:19px;
+    height:15px;
+    bottom:341px;
+    right:427px;
+    cursor:pointer;
+}
+.mainn .tab .keybd2{
+    position:absolute;
+    background:url(../images/keybd.png);
+    width:19px;
+    height:15px;
+    bottom:256px;
+    right:427px;
+    cursor:pointer;
+}
+.mainn .tab .agr1{
+    font-size: 12px;
+    margin:0 0 0 110px;
+    color:#A5A5A5;
+}
+.mainn .tab .agr2{
+    font-size: 12px;
+    color:#0093D8;
+    cursor:pointer;
+}
+.mainn .tab .reg_btn a{
+    display:block;
+    width:270px;
+    height:54px;
+    background:#00A0E9;
+    line-height: 54px;
+    text-align: center;
+    color:#fff;
+    margin:20px 0 0 89px;
+    border-radius: 3px;
+}
+.mainn .tab .reg_btn:hover{
+    opacity: 0.8;
+}
+/*promise*/
+#pms{
+    height:134px;
+    border-bottom: 1px solid #DDDDDD;
+}
+#pms .pms{
+    height:134px;
+}
+#pms .sp2{
+    color:#999999;
+}
+/*1*/
+#pms .pms1{
+    float:left;
+    width:296px;
+    height:134px;
+    position:relative;
+    padding:41px 0 0 71px;
+}
+#pms .pms1 i{
+    position:absolute;
+    width:52px;
+    height:52px;
+    background:url(../images/promise.png) no-repeat;
+}
+#pms .pms1 .zhengpin{
+    background-position:-6px -4px;
+    top:39px;
+    left:0px;
+}
+#pms .pms1 .sp1{
+    display:inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+/*2*/
+#pms .pms2{
+    float:left;
+    width:296px;
+    height:134px;
+    position:relative;
+    padding:41px 0 0 71px;
+}
+#pms .pms2 i{
+    position:absolute;
+    width:52px;
+    height:52px;
+    background:url(../images/promise.png) no-repeat;
+}
+#pms .pms2 .quan{
+    background-position:-62px -4px;
+    top:39px;
+    left:0px;
+}
+#pms .pms2 .sp1{
+    display:inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+/*3*/
+#pms .pms3{
+    float:left;
+    width:296px;
+    height:134px;
+    position:relative;
+    padding:41px 0 0 71px;
+}
+#pms .pms3 i{
+    position:absolute;
+    width:52px;
+    height:52px;
+    background:url(../images/promise.png) no-repeat;
+}
+#pms .pms3 .kuai{
+    background-position:-120px -4px;
+    top:39px;
+    left:0px;
+}
+#pms .pms3 .sp1{
+    display:inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+/*4*/
+#pms .pms4{
+    float:left;
+    width:204px;
+    height:134px;
+    position:relative;
+    padding:41px 0 0 71px;
+}
+#pms .pms4 i{
+    position:absolute;
+    width:52px;
+    height:52px;
+    background:url(../images/promise.png) no-repeat;
+}
+#pms .pms4 .shou{
+    background-position:-177px -4px;
+    top:39px;
+    left:0px;
+}
+#pms .pms4 .sp1{
+    display:inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+/*售后服务*/
+#ser{
+    height:91px;
+}
+.ser{
+    padding-left:40px;
+    height:91px;
+}
+.ser ul li{
+    float:left;
+    margin:0 57px;
+}
+.ser ul a{
+    color:#333;
+    font-size: 14px;
+    line-height:91px;
+    font-weight: 700;
+}
+
+/*底部*/
+#bottom{
+    height:229px;
+}
+#bottom .bottom{
+    height:229px;
+}
+.bottom .bt1{
+    text-align: center;
+    margin-top: 77px;
+}
+.bottom .u1{
+    display:inline-block;
+}
+.bottom .u1 li{
+    float:left;
+    font-size: 11px;
+    border-right: 1px solid #666666;
+    color:#666666;
+    padding-right: 17px;
+    margin-right: 17px;
+}
+.bottom .bt2{
+    text-align: center;
+    margin:27px 0 33px 0;
+    font-size: 11px;
+    color:#666666;
+}
+.bottom .bt2 img{
+    cursor:pointer;
+}
+.bottom .bt2 a{
+    color:blue;
+}
+.bottom .bt3{
+    text-align: center;
+}
+.bottom .bt3 img{
+    margin-right: 10px;
+}
+
+
+
+
+
+

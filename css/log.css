@@ -1,0 +1,250 @@
+@charset "UTF-8";
+#top {
+  height: 70px; }
+  #top .logo {
+    margin: 12px 0 0 77px; }
+  #top .robot {
+    position: fixed;
+    right: 10px;
+    bottom: 10%;
+    cursor: pointer;
+    z-index: 10; }
+
+#mainn {
+  height: 476px;
+  background: #E9E9E9; }
+  #mainn .mainn {
+    height: 476px; }
+    #mainn .mainn .mainn_l {
+      float: left;
+      width: 620px;
+      height: 409px;
+      margin: 40px 90px 0 0; }
+    #mainn .mainn .mainn_r {
+      float: left;
+      margin-top: 40px;
+      width: 345px;
+      height: 324px;
+      background: #FFFFFF;
+      padding-top: 26px;
+      position: relative; }
+      #mainn .mainn .mainn_r .mr_t {
+        width: 305px;
+        height: 21px;
+        padding: 0 0 30px 10px;
+        border-bottom: solid 1px #eee;
+        margin-left: 20px; }
+        #mainn .mainn .mainn_r .mr_t .sp1 {
+          font-size: 14px;
+          color: #666666;
+          padding-bottom: 11px;
+          border-bottom: 2px solid #0090DB;
+          font-weight: 500; }
+        #mainn .mainn .mainn_r .mr_t .sp2_a {
+          font-size: 12px;
+          color: #E03A73;
+          cursor: pointer; }
+          #mainn .mainn .mainn_r .mr_t .sp2_a:hover {
+            text-decoration: underline; }
+      #mainn .mainn .mainn_r .ipt_p1 {
+        position: absolute;
+        background: url("../images/ipt1.png");
+        width: 33px;
+        height: 24px;
+        top: 94px;
+        left: 53px; }
+      #mainn .mainn .mainn_r .ipt1 {
+        width: 270px;
+        height: 42px;
+        margin: 27px 0 26px 40px;
+        border: 1px solid #EBEBEB;
+        padding-left: 54px;
+        font-size: 12px; }
+      #mainn .mainn .mainn_r .ipt_p2 {
+        position: absolute;
+        background: url("../images/ipt2.png");
+        width: 31px;
+        height: 24px;
+        top: 162px;
+        left: 55px; }
+      #mainn .mainn .mainn_r .ipt2 {
+        width: 270px;
+        height: 42px;
+        margin: 0px 0 26px 40px;
+        border: 1px solid #EBEBEB;
+        padding-left: 54px;
+        font-size: 12px; }
+      #mainn .mainn .mainn_r .ipt_keybd {
+        position: absolute;
+        background: url("../images/keybd.png");
+        width: 19px;
+        height: 15px;
+        top: 166px;
+        left: 281px;
+        cursor: pointer; }
+      #mainn .mainn .mainn_r .p1 {
+        width: 270px;
+        height: 46px;
+        margin: 0px 0 12px 40px;
+        border: 1px solid #EBEBEB;
+        font-size: 16px;
+        background: #22AC38;
+        line-height: 46px;
+        text-align: center;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer; }
+        #mainn .mainn .mainn_r .p1:hover {
+          background: #4EBD60; }
+      #mainn .mainn .mainn_r .mr_b {
+        height: 14px;
+        margin-left: 40px;
+        font-size: 12px; }
+        #mainn .mainn .mainn_r .mr_b .sp1 {
+          color: #818181;
+          margin-right: 153px; }
+        #mainn .mainn .mainn_r .mr_b .sp2 {
+          color: #0066FF;
+          cursor: pointer; }
+
+/*promise*/
+#pms {
+  height: 134px;
+  border-bottom: 1px solid #DDDDDD;
+  margin-top: 50px; }
+  #pms .sp2 {
+    color: #999999; }
+  #pms .pms {
+    height: 134px;
+    /*1*/
+    /*2*/
+    /*3*/
+    /*4*/ }
+    #pms .pms .pms1 {
+      float: left;
+      width: 296px;
+      height: 134px;
+      position: relative;
+      padding: 41px 0 0 71px; }
+      #pms .pms .pms1 i {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        background: url(../images/promise.png) no-repeat; }
+      #pms .pms .pms1 .zhengpin {
+        background-position: -6px -4px;
+        top: 39px;
+        left: 0px; }
+      #pms .pms .pms1 .sp1 {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 16px; }
+    #pms .pms .pms2 {
+      float: left;
+      width: 296px;
+      height: 134px;
+      position: relative;
+      padding: 41px 0 0 71px; }
+      #pms .pms .pms2 i {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        background: url(../images/promise.png) no-repeat; }
+      #pms .pms .pms2 .quan {
+        background-position: -62px -4px;
+        top: 39px;
+        left: 0px; }
+      #pms .pms .pms2 .sp1 {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 16px; }
+    #pms .pms .pms3 {
+      float: left;
+      width: 296px;
+      height: 134px;
+      position: relative;
+      padding: 41px 0 0 71px; }
+      #pms .pms .pms3 .pms3 i {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        background: url(../images/promise.png) no-repeat; }
+      #pms .pms .pms3 .kuai {
+        background-position: -120px -4px;
+        top: 39px;
+        left: 0px; }
+      #pms .pms .pms3 .sp1 {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 16px; }
+    #pms .pms .pms4 {
+      float: left;
+      width: 204px;
+      height: 134px;
+      position: relative;
+      padding: 41px 0 0 71px; }
+      #pms .pms .pms4 i {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        background: url(../images/promise.png) no-repeat; }
+      #pms .pms .pms4 .shou {
+        background-position: -177px -4px;
+        top: 39px;
+        left: 0px; }
+      #pms .pms .pms4 .sp1 {
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 800;
+        margin-bottom: 16px; }
+
+/*售后服务*/
+#ser {
+  height: 91px; }
+  #ser .ser {
+    padding-left: 40px;
+    height: 91px; }
+    #ser .ser li {
+      float: left;
+      margin: 0 57px; }
+      #ser .ser li a {
+        color: #333;
+        font-size: 14px;
+        line-height: 91px;
+        font-weight: 700; }
+
+/*底部*/
+#bottom {
+  height: 229px; }
+  #bottom .bottom {
+    height: 229px; }
+    #bottom .bottom .bt1 {
+      text-align: center;
+      margin-top: 77px; }
+      #bottom .bottom .bt1 .u1 {
+        display: inline-block; }
+        #bottom .bottom .bt1 .u1 li {
+          float: left;
+          font-size: 11px;
+          border-right: 1px solid #666666;
+          color: #666666;
+          padding-right: 17px;
+          margin-right: 17px; }
+    #bottom .bottom .bt2 {
+      text-align: center;
+      margin: 27px 0 33px 0;
+      font-size: 11px;
+      color: #666666; }
+      #bottom .bottom .bt2 img {
+        cursor: pointer; }
+      #bottom .bottom .bt2 a {
+        color: blue; }
+    #bottom .bottom .bt3 {
+      text-align: center; }
+      #bottom .bottom .bt3 img {
+        margin-right: 10px; }
+
+/*# sourceMappingURL=log.css.map */

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../css/details.css" />
+        <link rel="stylesheet" type="text/css" href="../css/magnifier.css" />
+
+        <script src="../js/jquery-1.10.1.min.js" type="text/javascript"></script>
+        <script src="../js/details.js" type="text/javascript"></script>
+        <script src="../js/common.js" type="text/javascript"></script>
+        <script src="../js/magnifier.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <!-- top -->
+        <div id="top">
+            <div class="top con">
+                <div class="tl">
+                    <span class="sp1" id="top_name"><a href="../html/log.html">Hi,请登录</a></span>
+                    <span class="sp2" id="top_out"><a href="../html/reg.html">免费注册</a></span>
+                    <span class="sp3" id="top_out2" style="display:none;"><a href="###">退出</a></span>
+                </div>
+                <ul class="u1">
+                    <li>
+                        <a class="aa" href="#">
+                            <span>商家入驻</span>
+                            <img style="margin-left:5px;" src="../images/jt.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="aa" href="#">
+                            <span>我的商城</span>
+                            <img style="margin-left:5px;" src="../images/jt.png"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img style="margin-right:5px;" src="../images/phone1.png" />
+                            <span>400-1191-191</span>
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>帮助中心</span>
+                        </a>
+                    </li>
+                    <li style="border:none;">
+                        <a href="#">
+                            <span>关注我们:</span>
+                            <img style="margin-left:5px;" src="../images/vx.png"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 留言机器人 -->
+            <div class="robot">
+                <img src="../images/fixed.png" alt="" />
+            </div>
+        </div>
+        <!-- logo -->
+        <div id="logo">
+           <div class="logo con">
+                <a href="../sy.html"><img class="i1" src="../images/logo.png"/></a>
+                <div class="lg_m">
+                    <i class="search"></i>
+                    <input class="inp1" type="text" placeholder="搜索关键字" />
+                    <input class="inp2" type="button" value="搜索" />
+                    <div class="lg_b">
+                        <a href="#">阿司匹林</a>
+                        <a href="#">万艾可</a>
+                        <a href="#">伟哥</a>
+                        <a href="#">感冒药</a>
+                        <a href="#">印度神油</a>
+                        <a href="#">吸鼻器</a>
+                    </div>
+                </div>
+                <div class="lg_r" id="sc">
+                    <span class="sp1">
+                        我的购物车
+                        <div class="cart_t">
+                            <img src="../images/cart_logo.png" alt="" />
+                            <span>购物车中没有商品哟~</span>
+                        </div>
+                    </span>
+                    <div class="sp2">
+                        <img src="../images/car.png"/>
+                        (0)
+                    </div>
+                </div>
+           </div> 
+        </div>
+        <!-- nav -->
+        <div id="nav">
+            <div class="nav con">
+                <span id="spfl"> 
+                    <img src="../images/spfl.png" alt="" />
+                    商品分类
+                </span>
+                <ul>
+                    <li style="color:red;"><a href="#">首页</a></li>
+                    <li><a href="#">营养保健</a></li>
+                    <li><a href="#">性福生活</a></li>
+                    <li><a href="#">男科药馆</a></li>
+                    <li><a href="#">妇科频道</a></li>
+                    <li><a href="#">医疗器械</a></li>
+                    <li><a href="#">健康咨询</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- table -->
+        <div id="tab">
+            <div class="tab con">
+                <ul>
+                    <li><a href="#"><b>首页 > </b></a></li>
+                    <li><a href="#">专科用药 > </a></li>
+                    <li><a href="#">呼吸科药 > </a></li>
+                    <li><a href="#">扁桃体炎 > </a></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <!-- main -->
+        <div id="man">
+            <div class="man con" id="dt_div">
+                <!-- L -->
+                <!-- <div class="man_l fl">
+                    <img class="big_p" src="../images/list1.jpg" alt="" />
+                    <ul class="sm">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p class="l_p"><img src="../images/shoucang.png" /></p>
+                </div> -->
+                <!-- C -->
+                <!-- <div class="man_c fl">
+                    <div class="man_c1">
+                        <p class="p1"><b></b></p>
+                        <p class="p2"></p>
+                    </div>
+                    <div class="man_c2">
+                        <div class="pri">
+                            <span class="sp1">商城价</span>
+                            <span class="sp2">45</span>
+                            <span class="sp3">（降价通知）</span><br />
+                            <span class="sp4">会员专享</span>
+                            <span class="sp5">43</span>
+                        </div>
+                        <span class="t_name">通用名称</span>
+                        <span id="regName"></span><br />
+                        <span class="t_num">批准文号</span>
+                        <span id="per"></span><br />
+                        <span class="t_pro">生产企业</span>
+                        <span id="bins"></span><br />
+                        <span class="t_one">购买数量</span>
+                        <input id="reduce" type="button" value="-" />
+                        <input id="ipt_num" type="text" value="1" />
+                        <input id="add" type="button" value="+" /><br /><br /><br /><br />
+                        <span class="join">加入需求清单</span>
+                        <span class="dengji">需求登记</span>
+                        <img class="three" src="../images/three.png" />
+                        <img src="../images/four.png" alt="" />
+                    </div>
+                </div> -->
+                <!-- R -->
+                <!-- <div class="man_r fr">
+                    <img src="../images/man1.png" alt="" />
+                    <img src="../images/man2.png" alt="" />
+                    <img src="../images/man3.png" alt="" />
+                </div> -->
+            </div>
+        </div>
+        <!-- 详情 评价 -->
+        <div id="pic">
+            <div class="pic con">
+                <div class="pic_l fl">
+                    <img src="../images/bt_R.png" alt="" />
+                </div>
+                <div class="pic_r fl">
+                    <div class="pic_r1" id="box">
+                        <ul>
+                            <li class="act">商品介绍</li>
+                            <li>商品回答</li>
+                            <li>商品说明书</li>
+                            <li>售后服务</li>
+                        </ul>
+                        <img class="content" style="display: block;" src="../images/det_big.png" alt="" />
+                        <img  class="content" src="../images/xxx2.png" alt="" />
+                        <img  class="content" src="../images/xxx4.png" alt="" />
+                        <img  class="content" src="../images/xxx5.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

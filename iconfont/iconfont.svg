@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="gantanhao" unicode="&#59160;" d="M512.004 894C230.346 894 2 665.661 2 384.004 2 102.34 230.34-126 512.004-126 793.66-126 1022 102.34 1022 384.004 1022 665.654 793.66 894 512.004 894z m0-771.896c-22.827 0-41.352 18.529-41.352 41.355 0 22.827 18.524 41.357 41.352 41.357 22.832 0 41.35-18.53 41.35-41.357 0-22.851-18.518-41.355-41.35-41.355z m41.35 206.77c0-22.839-18.518-41.356-41.35-41.356-22.827 0-41.352 18.518-41.352 41.356V604.547c0 22.82 18.524 41.352 41.352 41.352 22.832 0 41.35-18.531 41.35-41.352v-275.673z m0 0"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
