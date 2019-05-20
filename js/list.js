@@ -6,7 +6,6 @@ $(function(){
     var num = 20;
     var type = '';//price:根据价格排序    shoucang：根据收藏量排序
     var order = '';//up:升序   down：降序
-    
     function init(ipage){
         ajax2({
             type : 'post',
